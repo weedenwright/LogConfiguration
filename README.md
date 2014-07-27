@@ -1,7 +1,9 @@
 ### Logging Portlet - Dynamic Plugin for dotCMS
 
 The Logging Portlet allows a CMS Administrator in dotCMS to dynamically set logging levels of
-classes and packages at runtime that are known to the dotCMS JVM.
+classes and packages at runtime that are known to the dotCMS JVM. It is also possible to add
+dynamic classes/packages to this plugin by, after making sure you are exporting them from your
+other dynamic plugins, add them to the Activator's start function (see example already there).
 
 ### Install
 
