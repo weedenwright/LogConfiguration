@@ -9,13 +9,11 @@ classes and packages at runtime that are known to the dotCMS JVM.
 Everyone has their own way of installing dotCMS plugins. :) I happen to use the old ant build.xml and Eclipse way.
 
 #### Preconditions
-1.If you are running from source, make sure you have built and deployed the dotCMS 
+1. If you are running from source, make sure you have built and deployed the dotCMS 
  BEFORE trying to build this plugin.  To do this, from the ROOT of dotCMS, execute the 
- "deploy" task of the build.xml ant file to create the standard dotcms_xx.jar file, e.g. 
- (Note: This will build the monolithic dotCMS .jar with the libraries needed to build OSGi plugins 
-and place it in the dotCMS/WEB-INF/lib directory.)
-	
-		ant deploy
+ "deploy" task of the build.xml ant file to create the standard dotcms_xx.jar file (ant build) 
+ This will build the monolithic dotCMS .jar with the libraries needed to build OSGi plugins 
+ and place it in the dotCMS/WEB-INF/lib directory.
 	
 2. If so desired, you can 'import' this folder as an Eclipse project. I prefer to work in
 	Eclipse so that's how I've got it setup. After doing this, you will need to update the
