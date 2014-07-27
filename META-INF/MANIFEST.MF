@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Name: Logging Configuration Dynamic Portlet
+Bundle-SymbolicName: com.weedenwright.dotcms.plugins.logconfig.portlet
+Bundle-Description: Logging Configuration Dynamic Portlet
+Bundle-Version: 1.0
+Bundle-Activator: com.weedenwright.dotcms.plugins.logconfig.portlet.Activator
+DynamicImport-Package: *
+Import-Package:  org.osgi.framework,
+ org.osgi.util.tracker
