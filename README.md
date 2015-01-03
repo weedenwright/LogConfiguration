@@ -51,3 +51,10 @@ Undeploy the bundle using the dotCMS UI (CMS Admin->Dynamic Plugins->Undeploy).
 2. Edit the United States Language Variables
 3. Add a new property
 4. For the key 'javax.portlet.title.LOGGING_CONFIG_JSP' add 'Log Configuration' as the English
+
+#### Adding Log4j-2.1 Version of JSP
+While dotCMS does not yet support log4j 2.1, we have found issues with
+thread contention with the 1.2 version that is packaged with dotCMS 2.5
+and previous releases. The added log4j-2.1-loggingConfig.jsp along with
+the attached jars will allow this new plugin to run (though no promises
+about how the jars will cause the overall dotCMS instance to run).
